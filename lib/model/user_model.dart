@@ -10,7 +10,7 @@ class UserInfo {
 }
 
 Future<UserInfo> getUserInfo() async {
-  String url = 'https://panic-api.herokuapp.com/users/5cc077693a1c2d2a58734fd6';
+  String url = '';
 
   var response = await http.get(url);
   if (response.statusCode == 200) {
@@ -23,7 +23,7 @@ Future<UserInfo> getUserInfo() async {
 }
 
 Future<dynamic> login(UserInfo) async {
-  String url = 'https://panic-api.herokuapp.com/users/5cc077693a1c2d2a58734fd6';
+  String url = '';
 
   var response = await http.get(url);
   if (response.statusCode == 200) {

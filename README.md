@@ -1,6 +1,6 @@
 # panic
 
-A new Flutter project.
+This is a app for figth the crime
 
 ## Getting Started
 
